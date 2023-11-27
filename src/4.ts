@@ -29,7 +29,7 @@ class House {
             this.tenants.push(newPerson);
         }
     }
-    OpenDoor(key: Key) {}
+    openDoor(key: Key) {}
 }
 class MyHouse extends House {
     openDoor(key: Key): void {
